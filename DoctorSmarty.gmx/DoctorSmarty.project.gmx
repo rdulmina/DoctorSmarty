@@ -10,15 +10,23 @@
     <sprites name="Buttons">
       <sprite>sprites\start</sprite>
       <sprite>sprites\exitbtn</sprite>
+      <sprite>sprites\back</sprite>
       <sprite>sprites\next</sprite>
+      <sprites name="level_buttons">
+        <sprite>sprites\level01</sprite>
+        <sprite>sprites\locks</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\startbbl</sprite>
     <sprite>sprites\doctor</sprite>
     <sprite>sprites\bar</sprite>
+    <sprite>sprites\select_level</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\blur_back</background>
+    <background>background\level1</background>
+    <background>background\levels</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -26,17 +34,25 @@
       <object>objects\logo_obj</object>
       <object>objects\start_speech_bubble</object>
       <object>objects\doctor_start_pop_up</object>
-      <object>objects\bar_obj</object>
     </objects>
     <objects name="buttons">
       <object>objects\start_button</object>
       <object>objects\exit_button</object>
       <object>objects\next_button</object>
+      <object>objects\back_button</object>
+      <object>objects\bar_obj</object>
+      <objects name="levels">
+        <object>objects\level01btn</object>
+        <object>objects\lockbtn</object>
+      </objects>
     </objects>
+    <object>objects\select_level_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start_page</room>
     <room>rooms\start_pop_page</room>
+    <room>rooms\levels_page</room>
+    <room>rooms\level1_page</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
