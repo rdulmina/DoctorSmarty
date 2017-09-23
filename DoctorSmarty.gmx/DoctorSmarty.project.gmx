@@ -21,6 +21,15 @@
     <sprite>sprites\doctor</sprite>
     <sprite>sprites\bar</sprite>
     <sprite>sprites\select_level</sprite>
+    <sprites name="level01_stuff">
+      <sprite>sprites\hotwater</sprite>
+      <sprite>sprites\icebottle</sprite>
+      <sprite>sprites\icebottlewrong</sprite>
+      <sprite>sprites\rightcool</sprite>
+      <sprite>sprites\wronghot</sprite>
+      <sprite>sprites\wrongice</sprite>
+      <sprite>sprites\collbottle</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -47,12 +56,21 @@
       </objects>
     </objects>
     <object>objects\select_level_text</object>
+    <objects name="level01objects">
+      <object>objects\coolbottle</object>
+      <object>objects\ob_hotwater</object>
+      <object>objects\ob_icebottle</object>
+      <object>objects\rightcoolobj</object>
+      <object>objects\wronghot_obj</object>
+      <object>objects\wrongicebot</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\start_page</room>
     <room>rooms\start_pop_page</room>
     <room>rooms\levels_page</room>
-    <room>rooms\level1_page</room>
+    <room>rooms\level01_02</room>
+    <room>rooms\level1_new</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
