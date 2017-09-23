@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>480</height>
-  <vsnap>20</vsnap>
-  <hsnap>20</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="blur_back" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="level1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,11 +51,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="start_speech_bubble" x="512" y="192" name="inst_90F0E4F1" locked="0" code="" scaleX="0.670000016689301" scaleY="1.04999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="doctor_start_pop_up" x="200" y="240" name="inst_BFD7A08E" locked="0" code="" scaleX="0.909560739994049" scaleY="0.988962471485138" colour="4294967295" rotation="0"/>
-    <instance objName="next_button" x="704" y="448" name="inst_9D0974D1" locked="0" code="" scaleX="0.300000011920929" scaleY="0.28999999165535" colour="4294967295" rotation="0"/>
-    <instance objName="back_button" x="64" y="448" name="inst_2F81E517" locked="0" code="" scaleX="0.300000011920929" scaleY="0.28999999165535" colour="4294967295" rotation="0"/>
-    <instance objName="bar_obj" x="380" y="440" name="inst_2E6B91BC" locked="0" code="" scaleX="1.04999995231628" scaleY="1.60000002384186" colour="4294967295" rotation="0"/>
+    <instance objName="coolbottle" x="480" y="224" name="inst_AC1AF289" locked="0" code="" scaleX="0.18604651093483" scaleY="0.260869562625885" colour="4294967295" rotation="0"/>
+    <instance objName="ob_hotwater" x="736" y="256" name="inst_BE22DC2A" locked="0" code="" scaleX="0.209150329232216" scaleY="0.142222225666046" colour="4294967295" rotation="0"/>
+    <instance objName="ob_icebottle" x="544" y="224" name="inst_17CAD4E5" locked="0" code="" scaleX="0.189910978078842" scaleY="0.161616161465645" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
